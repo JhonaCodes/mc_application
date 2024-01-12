@@ -22,7 +22,7 @@ class ProductScreen extends ConsumerWidget {
               }
           );
         },
-        error: (error, stackTrace) => Text('Error $error'),
+        error: (error, stackTrace) => Text('Error $error', style: TextStyle(color: Colors.black),),
         loading: ()=> const Center(
           child: SizedBox(
             height: 50,

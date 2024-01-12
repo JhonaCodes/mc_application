@@ -23,7 +23,7 @@ class HomeLayout extends ConsumerWidget {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text('MOC APP',
+            Text('MOCK APP',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             Padding(
